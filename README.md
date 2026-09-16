@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="assets/logo.png" alt="gistwise logo: a funnel distilling many shapes into a single drop" width="160">
+
 # gistwise
 
 ### *Gist first, wise about what to keep.*
