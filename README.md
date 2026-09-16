@@ -49,7 +49,7 @@ Then trigger it with `/gistwise`, or just ask Claude to explain, simplify, or br
 
 ## Install in the Claude app (desktop & web)
 
-1. [**Download gistwise-skill.zip**](https://github.com/TachTech-Engineering/gistwise/releases/latest/download/gistwise-skill.zip) (no GitHub account needed).
+1. [**Download gistwise-skill.zip**](https://github.com/TachTech-Engineering/gistwise/releases/latest/download/gistwise-skill.zip).
 2. In Claude Desktop, open **Customize** (bottom-left) → **Skills** (on some plans: Settings → Capabilities → Skills).
 3. Click **+** → **Upload a skill**, pick the ZIP, and toggle gistwise on.
 
