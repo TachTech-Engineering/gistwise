@@ -47,6 +47,14 @@ npx skills add TachTech-Engineering/gistwise
 
 Then trigger it with `/gistwise`, or just ask Claude to explain, simplify, or break something down.
 
+## Install in the Claude app (desktop & web)
+
+1. Download this repo as a ZIP: **Code → Download ZIP** on GitHub (the archive already has the layout the uploader expects).
+2. In Claude Desktop, open **Customize** (bottom-left) → **Skills** (on some plans: Settings → Capabilities → Skills).
+3. Click **+** → **Upload a skill**, pick the ZIP, and toggle gistwise on.
+
+Uploaded skills are private to your account and sync between the desktop app and claude.ai on the web.
+
 ## Credits
 
 Gistwise is a synthesis of four skills:
