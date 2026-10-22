@@ -19,7 +19,7 @@ Explain or rewrite anything so a smart person outside the field understands it i
 
 ## What it does
 
-Every explanation gistwise produces follows the same arc: the **gist** in one sentence, one **anchor** analogy or example, the **mechanism** in plain terms, and one **caveat** where the analogy breaks. The structure never changes with the audience; only the jargon density moves. The default reader is a smart person with no background in the topic, "for a technical reader" raises the density and drops the analogy when it is not needed, and "for a beginner" lowers it and adds a worked example. Three modes cover most work: **explain** a concept, **rewrite** pasted text, or **edit a file's prose** while leaving code blocks and frontmatter untouched.
+For a genuinely complex topic, gistwise follows an arc: the **gist** in one sentence, one **anchor** analogy or example, the **mechanism** in plain terms, and one **caveat** where the analogy breaks. Simple questions get short answers, and the depth, tone, and structure adapt to what the reader needs. The default reader is a smart person with no background in the topic, "for a technical reader" raises the density and drops the analogy when it is not needed, and "for a beginner" lowers it and adds a worked example. Three modes cover most work: **explain** a concept, **rewrite** pasted text, or **edit a file's prose** while leaving code blocks and frontmatter untouched.
 
 ## Before / after
 

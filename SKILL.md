@@ -7,7 +7,7 @@ description: Explain or rewrite anything so a smart person outside the field und
 
 Gist first, wise about what to keep.
 
-Turn a hard idea into an explanation the reader actually walks away understanding: short, plain, and still true. Optimize for the reader's understanding, not for a display of knowledge.
+Turn a hard idea into an explanation the reader actually walks away understanding: short, plain, and still true. Optimize for the reader's understanding, not for a display of knowledge. Make the writing natural, cohesive, and worth following without turning every explanation into a story.
 
 ## The one rule
 
@@ -18,6 +18,12 @@ Aim for the middle. Keep the load-bearing technical truth and wrap it in plain w
 ## Scale effort to difficulty
 
 Match the machinery to the question. "What is a variable?" deserves a sentence and maybe a quick image, not a four-part essay. Reserve the full arc below for genuinely complex, abstract, or counterintuitive topics. Over-explaining a simple thing buries the answer and wastes the reader's time. If a topic is deep, give the short version and offer to go deeper instead of dumping everything at once.
+
+## Find the spine
+
+Read all supplied material before rewriting. Identify the central idea, question, argument, or decision that holds it together. Notice the user's strongest phrasing, examples, distinctions, humor, and revealing details; build around them when they work. Do not replace a sharp original sentence with a smoother but weaker one.
+
+Order information around what the reader needs to understand next, rather than the order in which the notes arrived. Lead with the consequential point, supply context when it becomes useful, and make each paragraph advance the explanation or reasoning. Let transitions follow from logic instead of adding generic connectors. Preserve chronology when it affects causation or meaning.
 
 ## The arc
 
@@ -41,27 +47,39 @@ Two overrides:
 - "For a technical reader": raise the jargon density. Use field terms without pausing to earn each one, and drop the analogy when the mechanism alone is clear.
 - "For a beginner" or "for my grandparent": lower the density further. Earn every term or avoid it, and add one worked example that walks a single concrete case from start to finish.
 
-The structure never changes. Every reader gets the same arc: gist, anchor, mechanism, caveat. Only the jargon density moves.
+Also infer what the reader already knows, cares about, might misunderstand, and needs to decide or do. Adapt depth, tone, and structure accordingly. An executive may need the decision and consequence first; an engineer may need the mechanism and constraints. Keep the user's voice appropriate to the audience rather than making it sterile.
+
+The arc supports understanding; it is not mandatory scaffolding for every document. Simple answers can stay short, and rewrites should use the structure their purpose requires.
 
 ## Modes
 
-- Explain: the user names a concept. Produce an explanation using the arc.
-- Rewrite: the user pastes text. Return only the rewrite, nothing else. Preserve every claim; change only how it reads.
+- Explain: the user names a concept. Produce an explanation, using the arc when the topic warrants it.
+- Rewrite: the user pastes text. Return only the rewrite unless a meaningful reasoning flaw needs a brief note. Preserve the claims, intent, and degree of certainty; reorganize and remove repetition without silently changing the position.
 - File: the user names a file. Edit its prose in place to this standard. Leave code blocks, inline code, commands, paths, and frontmatter untouched. Report what changed in one or two lines.
 
-## Output hygiene
+## Natural writing
 
-Before sending, check for five patterns and remove them:
+Use familiar words, concrete actors, and precise verbs. Explain what actually happened or became slower, harder, or more expensive instead of hiding it behind abstractions. Use supplied details; never invent specifics to make prose vivid. Contractions, bluntness, ordinary phrases, and occasional fragments can preserve voice when they fit the audience.
 
-1. Not X but Y contrasts that add weight without adding a claim. State the point directly.
-2. One-line closers that restate the paragraph above. Cut them.
-3. Dashes as the universal connector. Use a period, comma, colon, or parentheses.
-4. Forced triads: three parallel items where the meaning has one or two. Keep three only when the meaning needs three.
-5. Bold used as labels or decoration. Turn labeled lists into prose when the labels carry no information.
+Vary sentence length and paragraph size to suit the thought. Give a consequential sentence room without turning the whole document into dramatic one-line paragraphs. Use examples, callbacks, contrasts, or rhetorical questions only when they improve understanding or reasoning. Keep important distinctions explicit, but avoid repeating the same rhetorical construction. Do not manufacture suspense, emotion, or profundity, or delay the answer for a reveal. Clarity outranks drama.
 
-In instructions, put the condition before the command: "If the test fails, check the log," never "Check the log if the test fails." Never promote a hedge to a fact when simplifying: "may" stays "may," "usually" stays "usually." A shorter sentence that upgrades a hedge is not simpler; it is a different claim.
+## Intellectual honesty
 
-Lead with the point. No preamble, no closing pleasantries. Keep visible lists to five items or fewer. End with one concrete next step only when one actually exists.
+Preserve load-bearing facts, mechanisms, conditions, exceptions, and uncertainty. Never promote a hedge to a fact: "may" stays "may," "usually" stays "usually." Distinguish fact from interpretation, inference, assumption, and opinion. Do not invent evidence, quotations, motives, events, or technical details.
+
+If the source has a consequential contradiction, unsupported assumption, or reasoning gap, flag it briefly instead of concealing it with persuasive prose. Preserve the user's actual position; do not silently repair it into a different claim. Ask only when missing information is necessary to proceed; otherwise state the limitation without filling the gap.
+
+## Editing and Humanizer pass
+
+After drafting, check the logic and technical truth, then read as the intended recipient. Apply this self-contained cleanup pass:
+
+1. Cut repeated points, redundant setup, overexplaining, and closers that merely restate the paragraph above. Keep the strongest version; retain repetition only when it adds useful emphasis or orientation.
+2. Replace generic introductions, formulaic transitions, canned business language, inflated vocabulary, artificial enthusiasm, and impressive-sounding emptiness with direct meaning.
+3. Remove decorative "not X but Y" contrasts, forced triads, stock rhetorical questions, and repetitive sentence patterns. Keep genuine distinctions and useful parallelism.
+4. Check for dashes used as the universal connector, dramatic fragments, excessive signposting, and decorative bold labels. Let punctuation and formatting serve the thought.
+5. Restore the user's strongest wording where polishing erased personality. Keep natural texture without adding errors or forced informality. Check that stronger prose has not made the claim more certain than the evidence allows.
+
+In instructions, put the condition before the command: "If the test fails, check the log." Lead with the point, without a generic preamble or closing pleasantries. Prefer prose for connected reasoning and lists for steps or comparisons; keep visible lists to five items or fewer. End when the explanation is complete, or with the decision, unresolved question, or concrete next step when one actually exists. Do not add an automatic recap.
 
 ## Calibration
 
@@ -84,7 +102,7 @@ The just right version keeps the load-bearing truths the simple one dropped (per
 ## Before sending, verify
 
 - Could someone who did not already know this follow it?
-- Is one clear anchor carrying the intuition?
+- Where an anchor is useful, is one clear example carrying the intuition?
 - Did the simplification keep the part that matters, or did it make the idea wrong?
-- Can anything be cut without losing meaning?
+- Does the ordering follow the reader's needs, preserve the user's strongest wording, and avoid repetition?
 - If an analogy is used, is it mapped, and is its breaking point named when it could mislead?
