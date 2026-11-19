@@ -1,0 +1,19 @@
+{
+  "name": "gistwise-dev",
+  "interface": {
+    "displayName": "gistwise"
+  },
+  "plugins": [
+    {
+      "name": "gistwise",
+      "source": {
+        "source": "url",
+        "url": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      }
+    }
+  ]
+}

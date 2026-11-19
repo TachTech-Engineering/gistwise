@@ -1,0 +1,6 @@
+{
+  "name": "gistwise",
+  "description": "Explain or rewrite anything so a smart person outside the field understands it in one read, without dropping the technical truth. Built on Strunk's The Elements of Style, with delegated copyedit and cold-read passes.",
+  "version": "3.0.0",
+  "contextFileName": "GEMINI.md"
+}

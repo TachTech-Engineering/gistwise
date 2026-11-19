@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "name": "gistwise",
+  "displayName": "gistwise",
+  "version": "3.0.0",
+  "description": "Explain or rewrite anything so a smart person outside the field understands it in one read, without dropping the technical truth. Built on Strunk's The Elements of Style, with delegated copyedit and cold-read passes.",
+  "compat": {
+    "source": "native",
+    "manifestDir": ".muse-plugin"
+  },
+  "capabilities": {
+    "skills": [
+      {
+        "id": "gistwise",
+        "path": "skills/gistwise/SKILL.md"
+      }
+    ],
+    "commands": [],
+    "hooks": [],
+    "mcpServers": [],
+    "reminders": []
+  }
+}

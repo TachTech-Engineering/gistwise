@@ -1,0 +1,23 @@
+name: gistwise
+version: 3.0.0
+description: Explain or rewrite anything so a smart person outside the field understands it in one read, without dropping the technical truth. Built on Strunk's The Elements of Style, with delegated copyedit and cold-read passes.
+author:
+  name: Maxwell Ehiorobo
+  url: https://github.com/TachTech-Engineering
+license: MIT
+repository: https://github.com/TachTech-Engineering/gistwise
+homepage: https://github.com/TachTech-Engineering/gistwise
+keywords:
+  - writing
+  - explanation
+  - plain-language
+  - editing
+  - style
+# Every harness everyharness targets discovers skills natively, and this
+# plugin ships exactly one skill with a description that already says when to
+# invoke it. A session-start injection would buy nothing and cost context in
+# every session.
+bootstrap: none
+marketplace:
+  name: gistwise
+  description: Gistwise, a skill for explanations a smart outsider understands in one read
