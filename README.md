@@ -76,6 +76,24 @@ v2 kept `SKILL.md` at the repository root, and v3 moves it to `skills/gistwise/`
 
 Uploaded skills are private to your account and sync between the desktop app and claude.ai on the web.
 
+## Usage examples
+
+Start a prompt with `/gistwise` or the word "gistwise", or just ask in plain words. "Explain," "break this down," "simplify," and "tighten this up" all trigger it.
+
+| You type | What gistwise does |
+| --- | --- |
+| `gistwise: what is a variable?` | Answers in a few sentences. A simple question gets no arc, no reference lookup, and no subagents. |
+| `gistwise: how does a Bloom filter work?` | Uses the full arc: the gist in one sentence, one running example, then the mechanism, naming each technical term only after the idea lands. |
+| `explain OAuth refresh tokens for a technical reader` | Uses field terms freely and drops the analogy when the mechanism is clear on its own. |
+| `explain what a mortgage escrow account is for my grandparent` | Avoids jargon and walks one concrete case from start to finish. |
+| `gistwise: rewrite this for my team lead` + pasted text | Returns only the rewrite, with the main point first and every *may* and *usually* kept. Over about 500 words, a copyedit subagent checks the draft against the original. |
+| `gistwise the prose in docs/runbook.md` | Edits the file in place and reports the changes in a line or two. Frontmatter, code blocks, commands, and paths stay byte-identical. |
+| `tighten this up` / `copyedit this` + pasted text | Applies Strunk's rules and lists each change with the rule behind it, such as "R13: omit needless words." |
+| `explain how DNS resolution works, and check it before you send it` | After drafting, hands the text to a fresh subagent that never saw the source. If it can't state the gist back or gets lost, gistwise revises once. |
+| `gistwise: "fewer errors" or "less errors"?` | Looks up that one entry in the Strunk reference instead of loading the whole book. |
+
+gistwise leaves code, legal text, direct quotes, and fiction alone. If you ask for the technical version, you get the technical version.
+
 ## Credits
 
 Gistwise is a synthesis of five skills:
