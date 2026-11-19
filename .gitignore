@@ -1,0 +1,4 @@
+.claude/settings.local.json
+
+# Hermes imports .hermes-plugin/ as a Python package at load time
+__pycache__/

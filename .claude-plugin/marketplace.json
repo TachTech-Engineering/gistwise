@@ -1,0 +1,20 @@
+{
+  "name": "gistwise",
+  "description": "Gistwise, a skill for explanations a smart outsider understands in one read",
+  "plugins": [
+    {
+      "name": "gistwise",
+      "description": "Explain or rewrite anything so a smart person outside the field understands it in one read, without dropping the technical truth. Built on Strunk's The Elements of Style, with delegated copyedit and cold-read passes.",
+      "version": "3.0.0",
+      "source": "./",
+      "author": {
+        "name": "Maxwell Ehiorobo",
+        "url": "https://github.com/TachTech-Engineering"
+      }
+    }
+  ],
+  "owner": {
+    "name": "Maxwell Ehiorobo",
+    "url": "https://github.com/TachTech-Engineering"
+  }
+}

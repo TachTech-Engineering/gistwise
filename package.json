@@ -1,0 +1,30 @@
+{
+  "name": "gistwise",
+  "version": "3.0.0",
+  "description": "Explain or rewrite anything so a smart person outside the field understands it in one read, without dropping the technical truth. Built on Strunk's The Elements of Style, with delegated copyedit and cold-read passes.",
+  "author": {
+    "name": "Maxwell Ehiorobo",
+    "url": "https://github.com/TachTech-Engineering"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/TachTech-Engineering/gistwise",
+  "homepage": "https://github.com/TachTech-Engineering/gistwise",
+  "type": "module",
+  "main": "./.opencode/plugins/gistwise.js",
+  "pi": {
+    "extensions": [
+      "./.pi/extensions/gistwise.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
+  },
+  "keywords": [
+    "writing",
+    "explanation",
+    "plain-language",
+    "editing",
+    "style",
+    "pi-package"
+  ]
+}
